@@ -8,7 +8,7 @@ public class ArrayReversor {
         this.service = service;
     }
 
-
+    
     public int[] reverseArray(int[][] a_in) {
         if(a_in==null){
             return null;
@@ -20,6 +20,7 @@ public class ArrayReversor {
         return reversed;
     }
 
+    // revere array method 
     private int[] reversedArray(int[] arr) {
         int[] reversedArray = new int[arr.length];
 
